@@ -1,5 +1,3 @@
-
-
 public class data_object {
     csv_reader csv;
     String memberName = "";
@@ -21,7 +19,6 @@ public class data_object {
     }
     public int getMemberID(){
         return memberID;
-
     }
     public int getParentID(){
         return parentID;
@@ -29,5 +26,6 @@ public class data_object {
     public double[] getData(){
         return data;
     }
+
 
 }

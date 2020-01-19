@@ -5,12 +5,12 @@ import java.util.Arrays;
 
 public class csv_reader {
 
-private static BufferedReader br = null; 
-private static String line = ""; //initialize line 
-private static String commasSplit = ","; //parse lines in csv by commas 
+private static BufferedReader br = null;
+private static String line = ""; //initialize line
+private static String commasSplit = ","; //parse lines in csv by commas
 //BufferedReader filename = new BufferedReader(new FileReader(filename));
 
-	public static boolean isNumeric(String strNum) {
+	private static boolean isNumeric(String strNum) {
         if (strNum == null) {
             return false;
         }
@@ -23,17 +23,17 @@ private static String commasSplit = ","; //parse lines in csv by commas
     }
 
 	private static void csvReadReg(String filename) throws IOException{
-		br = new BufferedReader(new FileReader(filename)); //open file 
+		br = new BufferedReader(new FileReader(filename)); //open file
 		while((line = br.readLine()) != null){ //while the line is not null
-			String[] elem = line.split(commasSplit); //split 
+			String[] elem = line.split(commasSplit); //split
 			System.out.println(Arrays.asList(elem));
 		}
 	}
 
 	private static void metadataRead(String filename) throws IOException{
-		br = new BufferedReader(new FileReader(filename)); //open file 
+		br = new BufferedReader(new FileReader(filename)); //open file
 		while((line = br.readLine()) != null){ //while the line is not null
-			String[] elem = line.split(commasSplit); //split 
+			String[] elem = line.split(commasSplit); //split
 				if(isNumeric(line)){
 					int intToStr = Integer.parseInt(line);
 				}
@@ -43,12 +43,13 @@ private static String commasSplit = ","; //parse lines in csv by commas
 	}
 
 	public static void main(String[] args) throws IOException{
-		csvReadReg("1610010901-eng.csv");
+		csvReadReg("1610010901_MetaData.csv");
 		System.out.print("\n\r");
 		System.out.println("////////////////////////////////////////////////////////////////////////");
 		System.out.print("\n\r");
 		metadataRead("1610010901_MetaData.csv");
-		
+
 	}
-    
+
+
 }

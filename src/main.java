@@ -4,8 +4,12 @@ import simplenlg.realiser.english.*;
 import simplenlg.phrasespec.*;
 import simplenlg.features.*;
 public class main {
-    public static void main(String[] args) {
+    public static void Main(String[] args) {
+        csv_reader csv;
+
         Lexicon lexicon = Lexicon.getDefaultLexicon();
+        NLGFactory nlgFactory = new NLGFactory(lexicon);
+        Realiser realiser = new Realiser(lexicon);
 
     }
 }
