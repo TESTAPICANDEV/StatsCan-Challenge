@@ -1,4 +1,4 @@
-public class data_object {
+public class data_object extends csv_reader {
     csv_reader csv;
     String memberName = "";
     int memberID = -1;
