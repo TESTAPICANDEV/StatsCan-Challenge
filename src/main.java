@@ -4,7 +4,7 @@ import simplenlg.realiser.english.*;
 import simplenlg.phrasespec.*;
 import simplenlg.features.*;
 public class main {
-    public static void Main(String[] args) {
+    public static void main(String[] args) {
         csv_reader csv;
 
         Lexicon lexicon = Lexicon.getDefaultLexicon();
