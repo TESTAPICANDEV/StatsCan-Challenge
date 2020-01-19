@@ -3,7 +3,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Arrays;
 
-public class csv_reader {
+public class csv_reader extends data_object {
 
 private static BufferedReader br = null;
 private static String line = ""; //initialize line

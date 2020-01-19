@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c55e0400-6ee0-46b0-ab91-528c38469d34" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/csv_reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/csv_reader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data_object.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_object.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,9 +49,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.csv_reader">
+  <component name="RunManager" selected="Application.main">
     <configuration name="csv_reader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="csv_reader" />
+      <module name="StatsCan-Challenge" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="data_object" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data_object" />
       <module name="StatsCan-Challenge" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -65,8 +73,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.csv_reader" />
         <item itemvalue="Application.main" />
+        <item itemvalue="Application.data_object" />
+        <item itemvalue="Application.csv_reader" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579406083111</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add some code">
+      <created>1579406240152</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1579406240152</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

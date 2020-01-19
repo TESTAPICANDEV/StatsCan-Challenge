@@ -1,11 +1,13 @@
-public class data_object extends csv_reader {
+public class data_object {
     csv_reader csv;
     String memberName = "";
     int memberID = -1;
     int parentID = -1;
     int level = -1;
     double[] data = {};
+    public data_object(){
 
+    }
     public data_object(String name, int memberID, int parentID, int level,double[] data ){
         this.memberName = name;
         this.memberID = memberID;
