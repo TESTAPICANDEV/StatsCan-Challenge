@@ -1,0 +1,76 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Industrial capacity utilization rates, by industry",16100109,028-0002,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1610010901",,"CURRENT - a cube available to the public and that is current",Quarterly,1987-01-01,2019-07-01,2
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Correction Notes","Dimension Definitions"
+1,Geography,,,
+2,"North American Industry Classification System (NAICS)",,,
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Correction Notes","Member Geo Attribute Keys","Member Definitions"
+1,Canada,[11124],1,,,,,,
+2,"Total industrial",,1,,,1,,,
+2,"Forestry and logging",[113],2,1,,,,,
+2,"Mining and oil and gas extraction",[21],3,1,,,,,
+2,"Oil and gas extraction",[211],4,3,,,,,
+2,Mining,,5,3,,2,,,
+2,"Electric power generation, transmission and distribution",[2211],6,1,,,,,
+2,Construction,[23],7,1,,,,,
+2,Manufacturing,[31-33],8,1,,,,,
+2,"Food manufacturing",[311],9,8,,,,,
+2,"Beverage and tobacco product manufacturing",[312],10,8,,,,,
+2,"Beverage manufacturing",[3121],11,10,,,,,
+2,"Tobacco manufacturing",[3122],12,10,,,,,
+2,Textiles,,13,8,,3,,,
+2,"Textile mills",[313],14,13,,4,,,
+2,"Textile product mills",[314],15,13,,4,,,
+2,"Clothing manufacturing",[315],16,8,,,,,
+2,"Leather and allied product manufacturing",[316],17,8,,,,,
+2,"Wood product manufacturing",[321],18,8,,,,,
+2,"Paper manufacturing",[322],19,8,,,,,
+2,"Printing and related support activities",[323],20,8,,,,,
+2,"Petroleum and coal products manufacturing",[324],21,8,,,,,
+2,"Chemical manufacturing",[325],22,8,,,,,
+2,"Plastics and rubber products manufacturing",[326],23,8,,,,,
+2,"Plastic product manufacturing",[3261],24,23,,,,,
+2,"Rubber product manufacturing",[3262],25,23,,,,,
+2,"Non-metallic mineral product manufacturing",[327],26,8,,,,,
+2,"Primary metal manufacturing",[331],27,8,,,,,
+2,"Fabricated metal product manufacturing",[332],28,8,,,,,
+2,"Machinery manufacturing",[333],29,8,,,,,
+2,"Computer and electronic product manufacturing",[334],30,8,,,,,
+2,"Electrical equipment, appliance and component manufacturing",[335],31,8,,,,,
+2,"Transportation equipment manufacturing",[336],32,8,,,,,
+2,"Furniture and related product manufacturing",[337],33,8,,,,,
+2,"Miscellaneous manufacturing",[339],34,8,,,,,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period",..
+"less than the limit of detection",<LOD
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded",0s
+"data quality: excellent",A
+"data quality: very good",B
+"data quality: good",C
+"data quality: acceptable",D
+"use with caution",E
+"too unreliable to be published",F
+"not applicable",...
+preliminary,p
+revised,r
+"suppressed to meet the confidentiality requirements of the Statistics Act",x
+terminated,t
+
+"Survey Code","Survey Name"
+2821,"Capacity Utilization Rates"
+
+"Subject Code","Subject Name"
+16,"Economic accounts/Stock and consumption of fixed capital"
+3601,Manufacturing
+
+"Note ID",Note
+1,"This combines the North American Industry Classification System (NAICS) codes 113, 21, 2211, 23 and 31-33."
+2,"This combines the North American Industry Classification System (NAICS) codes 212 and 213."
+3,"This combines the North American Industry Classification System (NAICS) codes 313 and 314."
+4,"Data not available prior to 1997."
+
+"Correction ID","Correction Date","Correction Note"
+
